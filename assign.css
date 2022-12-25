@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color:white;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    border:2px solid red;
+    height:60px;
+    margin-left: 0px;
+}
+nav h1{
+    color:red;
+    font-size: 25px;
+    margin-left:10px;
+    margin-top: 10px;
+    border-bottom: 4px solid red;
+    border-radius: 30px;
+}
+
+nav ul {
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left:50px;
+    margin-top: 10px;
+}
+nav ul li a{
+    margin-left:44px;
+    margin-top:9px;
+    font-size:25px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul li a:hover{
+    color:red;
+    cursor: pointer;
+}
+.btn button{
+    width:100px;
+    height:36px;
+    color:white;
+    border:3px solid red;
+    border-radius: 20px;;
+    margin-right:15px;
+    font-size:18px;
+    margin-top:10px;
+    background-color: black;
+   
+    
+}
+.btn button:hover{
+    color:red;
+    cursor: pointer;
+
+}
+.main{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.head{
+    font-size:40px;
+    width:25%;
+    /* border:2px solid blue; */
+    margin-top:100px;
+    margin-left:100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.head button{
+    height:50px;
+    width:125px;
+    margin-left:90px;
+    margin-top:40px;
+    border:2px solid black;
+    background-color: red;
+    border-radius:15px;
+    font-size:20px;
+    cursor: pointer;margin-bottom:30px;
+    
+}
+.head button:hover{
+    color:white;
+    cursor: pointer;
+}
+.img img{
+    width:25%;
+    height:400px;
+    width:500px;
+    margin-right:80px;
+    margin-top:70px;
+}
+.footer{
+    border:2px solid red;
+    height:80vh;
+    /* background-color:grey; */
+    display:flex;
+    padding:20px;
+}
+.service{
+    /* border:2px solid red; */
+    height:300px;
+    width:33%;
+    text-align:center;
+    list-style: none;
+    /* padding:50px; */
+}
+.contact{
+    /* border:3px solid red; */
+    height:300px;
+    width:33%;
+    list-style: none;
+    text-align: center;
+}
+.contact ul{
+    padding:13px;
+    font-size:22px;
+    cursor:pointer;
+}
+
+.service ul :hover {
+    color:green;
+    cursor:pointer;
+    }
+.service ul{
+    padding:12px;
+    font-size:22px;
+    cursor:pointer;
+    
+}
+.manasvi{
+    /* border:2px solid blue; */
+    height:300px;
+    width:33%;list-style: none;
+    text-align: center;
+}
+
+.manasvi h1{
+    text-align: center;
+    /* color:red;
+    border:4px solid red; 
+    display:inline-block;
+    border-bottom: 4px solid red;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-left:10px;
+    margin-top: 10px;
+    color:red;
+    font-size: 25px;
+    margin-left:10px;
+    margin-top: 10px;
+    border-bottom: 4px solid red;
+    border-radius: 30px;
+} */
+    color:red;
+    font-size: 25px;
+    margin-left:10px;
+    margin-top: 10px;
+    border-bottom: 4px solid red;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#content{
+    text-align:center;
+    font-size: 23px;
+    margin-top: 14px;;
+
+}
+#header{
+    border:2px solid red;
+}
+
+.middle1{
+    display:flex;
+    
+}
+.middle2{
+   
+    display:flex;
+}
+#middle h1{
+    padding:13px;
+    color:black;
+    text-align:center;
+    font-size: 40px;
+}
+#middle{
+    background-color: aliceblue;
+    height:150vh;
+}
+
+
+.img1{
+    margin:50px;
+    color:black;
+    border:2px solid black;
+}
+.img1 p{
+    font-size:22px;
+    text-align:center;
+}
+#inside{
+    color:red;font-size:22px;
+}
